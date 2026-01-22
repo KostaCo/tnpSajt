@@ -420,7 +420,15 @@ tr:nth-child(even) {
   }
 
   .tnp-container {
-    max-width: 98%;
+    width: 92%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  .latexLink{
+    width: 85%;
+    box-sizing: border-box;
   }
 
   .hero-buttons {
@@ -435,10 +443,11 @@ tr:nth-child(even) {
   }
 
   iframe {
-    width: 100%;
+    display: block;
+    width: 95%;
     height: 500px;
-    margin: 10px 0;
-  }
+    margin: 10px auto;
+}
 
   .latexLink {
     padding-top: 10px;
