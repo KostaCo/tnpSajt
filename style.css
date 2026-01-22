@@ -420,7 +420,7 @@ tr:nth-child(even) {
   }
 
   .tnp-container {
-    width: 90%;
+    max-width: 90%;
   }
 
   .hero-buttons {
