@@ -393,16 +393,61 @@ tr:nth-child(even) {
     content: "✖";
   }
   .hero-container {
-      flex-direction: column-reverse;
-      text-align: center;
-      padding-top: 0;
-    }
-    .hero-content { text-align: center; }
-    .hero-buttons { justify-content: center; }
-    .hero-title { font-size: 2.5rem; }
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 0;
+    min-height: auto;  
+    padding: 40px 20px;
+    flex-direction: column-reverse;
+  }
+  .hero-content { 
+    text-align: center; 
+    margin-top: -80px;
+  }
+  .hero-buttons { justify-content: center; }
+  .hero-title { font-size: 2.5rem; }
   
-    .predmeti-container {
+  .predmeti-container {
     flex-direction: column;
     align-items: center;
+  }
+  .hero-title {
+    font-size: 2rem; 
+  }
+
+  .hero-description {
+    max-width: 100%;
+  }
+
+  .tnp-container {
+    width: 90%;
+  }
+
+  .hero-buttons {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .hero-image img {
+    width: 90%;
+    max-width: 550px;
+    margin: 0 auto 20px auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 500px;
+    margin: 10px 0;
+  }
+
+  .latexLink {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .dugme1 {
+    width: 100%;       
+    max-width: 280px;
+    margin: 0 auto;   
   }
 }
