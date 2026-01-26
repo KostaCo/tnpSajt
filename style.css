@@ -320,7 +320,7 @@ tr:nth-child(even) {
   align-items: flex-start;
   justify-content: center;
   flex-direction: row;
-  gap: 20px; /* Razmak između dve liste */
+  gap: 20px;
   padding: 20px;
   margin-bottom: 50px;
 }
@@ -347,7 +347,8 @@ tr:nth-child(even) {
   margin: 10px;
   list-style-position: inside;
   border: 1px solid black;
-  width: 50%; /* Must have a defined width */
+  width: 85%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
 }
